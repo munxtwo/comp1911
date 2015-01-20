@@ -1,0 +1,19 @@
+1. jsFiddle is an online editor for snippets built from HTML, CSS, and Javascript which can then be shared with others easily. jsFiddle can be used by web developers to isolate and get fixes for bugs as well as share code and best practices. jsFiddle is also useful for debugging and testing out individual pieces of code. Users can also work on the same fiddle simultaneously which is useful when doing code reviews. My username in jsFilddle is ktay.
+
+2. Good Firefox or Chrome plugins for Javascript developers:
+a) Firebug - Tool that is integrated with Firefox and allows users to debug and profile Javascript live in any web page. The console displays errors immediately with detailed information and also lets users execute Javascript directly.
+
+b) Javascript Errors Notifier - Chrome extension that displays and alert icon in the address bar when there is a Javascript error. Useful during development because it reduces the need of having to go to the console to look for specific error logs.
+
+c) YSlow - Firefox add-on for analyzing the performance of web pages and also provides suggestions on improving the performance of the page.
+
+d) User agent switcher - Firefox add-on that lets the user easily switch the user agent of the browesr for easy testing.
+
+e) FireQuery - Firefox add-on for jQuery development.
+
+3. Things that Javascript is not permitted to do:
+a) Cannot access webpages hosted on another domain.
+
+b) Cannot protect your page source or images.
+
+c) Cannot access databases.
