@@ -1,0 +1,29 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<script>
+			var nhlTeams = ['Boston Bruins', 'Buffalo Sabres', 'Detroit Red Wings', 'Florida Panthers', 'Montreal Canadiens',
+				'Ottawa Senators', 'Tampa Bay Lightning', 'Toronto Maple Leafs', 'Carolina Hurricanes',
+				'Columbus Blue Jackets', 'New Jersey Devils', 'New York Islanders', 'New York Rangers', 'Philadelphia Flyers',
+				'Pittsburgh	Penguins', 'Washington Capitals', 'Anaheim Ducks', 'Arizona Coyotes', 'Calgary Flames', 'Edmonton Oilers',
+				'Los Angeles Kings', 'San Jose Sharks', 'Vancouver Canucks', 'Chicago Blackhawks', 'Colorado Avalanche',
+				'Dallas Stars', 'Minnesota Wild', 'Nashville Predators', 'St. Louis Blues', 'Winnipeg Jets'];
+
+			for (var i=0; i<nhlTeams.length; i++) {
+				if (nhlTeams[i].indexOf("an") != -1) {
+					alert(nhlTeams[i]);
+				}
+			}
+
+			var today = new Date();
+			var future = new Date(2015, 09, 31);
+
+			var daysLeft = (future - today)/(1000 * 60 * 60 * 24);
+			alert("There are " + daysLeft.toFixed() + " days until October 31, 2015");
+
+		</script>
+
+	</body>
+</html>
