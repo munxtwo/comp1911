@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			var browser = navigator.userAgent;
+			if (browser.indexOf("Chrome") != -1) {
+				window.onload = function() {
+					for (var i=0; i<document.getElementsByTagName("img").length; i++) {
+						document.getElementsByTagName("img")[i].style.border = "green 2px solid";
+						document.images[i].width = 100;
+					}
+				};
+			}
+		</script>
+	</head>
+
+	<body>
+		<img src="a.jpg">
+		<img src="b.jpg">
+		<img src="c.jpg">
+		<img src="d.jpg">
+	</body>
+</html>
