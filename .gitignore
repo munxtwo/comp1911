@@ -1,2 +1,5 @@
 *.ppt
 *.docx
+*.sublime*
+*.iml
+.idea/*
