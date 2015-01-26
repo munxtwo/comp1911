@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			window.onload = function() {
+				var allImages = document.getElementsByTagName("img");
+				for (var i=0; i<allImages.length; i++) {
+					allImages[i].onclick = function() {
+						this.style.border = "red solid";
+					}
+				}
+
+				var divOneImages = document.getElementById("div1").getElementsByTagName("img");
+				for (var j=0; j<divOneImages.length; j++) {
+					divOneImages[j].onmouseover = function() {
+						this.style.width = 100;
+					}
+				}
+
+				var allParagraphs = document.getElementsByTagName("p");
+				for (var k=0; k<allParagraphs.length; k++) {
+					allParagraphs[k].ondblclick = function() {
+						this.style.color = "blue";
+					}
+				}
+
+				var divThreeParagraphs = document.getElementById("div3").getElementsByTagName("p");
+				for (var m=0; m<divThreeParagraphs.length; m++) {
+					divThreeParagraphs[m].onmouseover = function() {
+						this.style.backgroundColor = "yellow";
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="div1">
+			<img id="im1" src="cat.jpg" />
+			<img id="im2" src="dog.jpg" />
+			<img id="im3" src="fish.jpg" />
+		</div>
+		<div id="div2">
+			<p id="p1">This is paragraph 1.</p>
+			<p id="p2">This is paragraph 2.</p>
+			<p id="p3">This is paragraph 3.</p>
+		</div>
+		<div id="div3">
+			<p id="p4">This is paragraph 4.</p>
+			<p id="p5">This is paragraph 5.</p>
+			<img id="im4" src="bird.jpg" />
+			<img id="im5" src="turtle.jpg" />
+		</div>
+	</body>
+</html>
