@@ -1,0 +1,44 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("img").click(function() {
+				$(this).css("border", "red solid");
+			});
+
+			$("#div1 img").mouseover(function() {
+				$(this).css("width", 100);
+			});
+
+			$("p").dblclick(function() {
+				$(this).css("color", "blue");
+			});
+
+			$("#div3 p").mouseover(function() {
+				$(this).css("backgroundColor", "yellow");
+			});
+
+		});
+	</script>
+</head>
+<body>
+<div id="div1">
+	<img id="im1" src="cat.jpg" />
+	<img id="im2" src="dog.jpg" />
+	<img id="im3" src="fish.jpg" />
+</div>
+<div id="div2">
+	<p id="p1">This is paragraph 1.</p>
+	<p id="p2">This is paragraph 2.</p>
+	<p id="p3">This is paragraph 3.</p>
+</div>
+<div id="div3">
+	<p id="p4">This is paragraph 4.</p>
+	<p id="p5">This is paragraph 5.</p>
+	<img id="im4" src="bird.jpg" />
+	<img id="im5" src="turtle.jpg" />
+</div>
+</body>
+</html>
