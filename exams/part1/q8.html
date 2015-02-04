@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>COMP 1911 Final Exam Part 1 - Q8</title>
+	<script type="text/javascript">
+		timerId = null;
+
+		function move() {
+			image.style.left = parseInt(image.style.left) + 1 + "px";
+		}
+
+		function stop() {
+			clearInterval(timerId);
+			timerId = null;
+			image.style.left = "10px";
+		}
+
+		window.onload = function() {
+			image = document.getElementById("image1");
+			moveButton = document.getElementById("moveButton");
+			stopButton = document.getElementById("stopButton")
+
+			moveButton.onclick = function() {
+				if (timerId == null) {
+					timerId = setInterval("move();", 1000);
+				}
+			}
+
+			stopButton.onclick = function() {
+				if (timerId != null) {
+					stop();
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<img id="image1" src="turtle.jpg" style="position:absolute; left:10px">
+	</div>
+	<div style="top:350px; left:10px; position:absolute">
+		<button id="moveButton" type="button">Move</button>
+		<button id="stopButton" type="button">Stop and Reset</button>
+	</div>
+</body>
+</html>
