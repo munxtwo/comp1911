@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>COMP 1911 Lab 4b</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js"></script>
+	<script type="text/javascript" src="kattie_tay.js"></script>
+</head>
+
+<body>
+<form id="form" action="fake.php" method="POST">
+	<p>
+		Username:<br/>
+		<input id="username" name="Username" type="text" class="required" minlength="3" maxlength="6"/><br/>
+	</p>
+	<p>
+		Year of birth:<br/>
+		<input id="year" name="Year" type="text" class="date" /><br/>
+	</p>
+	<p>
+		Email address:<br/>
+		<input id="email" name="Email" type="text" class="required email" /><br/>
+	</p>
+	<p>
+		Home page:<br/>
+		<input id="url" name="Url" type="text" class="url" /><br/>
+	</p>
+	<p>
+		<input id="submit" name="submit" type="submit" />
+	</p>
+</form>
+
+</body>
+</html>
