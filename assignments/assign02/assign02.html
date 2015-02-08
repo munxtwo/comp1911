@@ -6,18 +6,23 @@
 	<link rel="stylesheet" type="text/css" href="css/darkness/layout.css" title="darkness" />
 	<link rel="alternate stylesheet" type="text/css" href="css/presentable/layout.css" title="presentable" />
 	<link rel="alternate stylesheet" type="text/css" href="css/prestigious/layout.css" title="prestigious" />
-	<link rel="stylesheet" type="text/css" href="css/liteaccordion.css" >
+	<link rel="stylesheet" type="text/css" href="css/liteaccordion.css" />
+	<link rel="stylesheet" type="text/css" href="css/jtip.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.datepick.css" />
 
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="js/liteaccordion.jquery.min.js"></script>
 	<script type="text/javascript" src="js/stylesheetToggle.js"></script>
+	<script type="text/javascript" src="js/jtip.js"></script>
+	<script type="text/javascript" src="js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="js/jquery.datepick.js"></script>
 	<script type="text/javascript" src="js/assign02.js"></script>
 </head>
 
 <body>
 <div id="header">
 	<div id="logo">
-		<h1><a href="assign02.html">COMP 1911: Assignment 2</a></h1>
+		<h1><a href="#">COMP 1911: Assignment 2</a></h1>
 		<p>by Kattie Tay</p>
 	</div>
 	<div id="topnav">
@@ -66,8 +71,45 @@
 	</div>
 </div>
 
-<div id="container2" class="container">
-	<p>test</p>
+<div id="schedule" class="container">
+	<h1>Canucks Game Schedule</h1>
+	<p>Select a date: <input type="text" id="popupDatepicker"></p>
+	<p id="game"></p>
 </div>
+
+<div id="news" class="container">
+	<h1>Latest Headlines</h1>
+	<div class="content">
+		<strong>Canucks recall Adam Clendening from IceHogs</strong><br/>
+		<strong>Friday, 30.01.2015 / 12:28 PM / News</strong></div><br/><br/>
+		Vancouver, B.C. - <a href="canucks.html?width=500&amp;link=http://canucks.nhl.com/" id="canucks" name="
+							 Canucks History" class="jTip">Vancouver Canucks</a> General
+			Manager Jim Benning announced today that the Canucks have recalled defenceman Adam Clendening from the AHL
+			Rockford IceHogs.<br/><br/>
+		Clendening, 22, has split the 2014.15 season with the <a
+		href="blackhawks.html?width=500&amp;link=http://blackhawks.nhl.com/" id="blackhawks" name="
+							 BlackHawks History" class="jTip">Chicago Blackhawks</a> and Rockford IceHogs. He collected two
+	points (1-1-2)
+	in four games with Chicago and 13 points (1-12-13) in 38 games with Rockford. In 2013.14 he was named an AHL First Team All-Star and,
+	in 2012.13, was named a second team AHL All-Star and Rockford’s Rookie of the Year.<br/><br/>
+
+		On the international stage, Clendening was a member of Team USA at the 2010 IIHF World U18 Championships. He led defencemen
+	in scoring at the tournament with 10 points (3-7-10), was named to the tournament all-star team and won a gold medal. The 6’0”,
+	190-pound defenceman also won gold at the 2009 IIHF World U18 Championships.<br/><br/>
+
+		The Niagara Falls, New York native was acquired from Chicago in exchange for Gustav Forsling on January 29, 2015. He was
+	originally selected by Chicago in the second round, 36th overall in the 2011 <a
+		href="nhl.html?width=500&amp;link=http://nhl.com/" id="nhl" name="
+							 NHL History" class="jTip">NHL</a> Entry Draft.<br/><br/>
+	</div>
+</div>
+
+<div id="links" class="container">
+	<h1>Useful Links</h1>
+	<div><a href="" name="" class="jTip"></a></div>
+	<p><a href="canucks.html?width=175&amp;link=http://www.yahoo.com" name="Before You Click..." id="yahooCopy"
+		  class="jTip">Go	To Yahoo</a></p>
+</div>
+
 </body>
 </html>

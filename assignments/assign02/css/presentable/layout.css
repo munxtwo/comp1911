@@ -13,7 +13,7 @@ File: Layout CSS
 @import url("tables.css");
 
 html{overflow-y:scroll;}
-body{margin:0; padding:0; font-size:12px; font-family:verdana, Arial, Helvetica, sans-serif; background-color:#585C3F;}
+body{margin:0; padding-bottom:300px; font-size:12px; font-family:verdana, Arial, Helvetica, sans-serif; background-color:#585C3F;}
 
 .justify{text-align:justify;}
 .bold{font-weight:bold;}
@@ -48,7 +48,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Generalise------------------------------------- */
 
-#header, #intro, #container, #breadcrumb, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
+#header, #intro, .container, #breadcrumb, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
 
 /* ----------------------------------------------Header------------------------------------- */
 
@@ -82,9 +82,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Container------------------------------------- */
 
-#container{padding:20px 0;}
-#container a{color:#FF9900; background-color:#FFFFFF;}
-#container p{padding-left:5px;}
+.container{padding:20px 0;}
+.container a{color:#FF9900; background-color:#FFFFFF;}
+.container p{padding-left:5px;}
 
 /* ----------------------------------------------Homepage Latest------------------------------------- */
 
@@ -98,15 +98,15 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Content------------------------------------- */
 
-#content{display:block; float:left; width:600px;}
-#content #latestnews{display:block; width:600px; margin-bottom:35px;}
-#content #latestnews h2, #content #latestnews p{margin:0; padding:0; line-height:1.6em;}
-#content #latestnews h2{margin-bottom:10px;}
-#content #latestnews ul, #content #latestnews li{display:block; width:100%; margin:0; padding:0; list-style:none;}
-#content #latestnews li{margin:0 0 15px 0; padding:0 0 15px 0; border-bottom:1px dotted #666666;}
-#content #latestnews div.imgholder{display:block; float:left; width:150px; height:150px; margin:0; padding:4px; border:1px solid #666666;}
-#content #latestnews div.latestnews{display:block; float:right; width:420px; margin:0; padding:0;}
-#content #latestnews p.readmore{display:block; margin-top:10px; text-align:right; font-weight:bold;}
+.content{display:block; width:600px;}
+.content #latestnews{display:block; width:600px; margin-bottom:35px;}
+.content #latestnews h2, .content #latestnews p{margin:0; padding:0; line-height:1.6em;}
+.content #latestnews h2{margin-bottom:10px;}
+.content #latestnews ul, .content #latestnews li{display:block; width:100%; margin:0; padding:0; list-style:none;}
+.content #latestnews li{margin:0 0 15px 0; padding:0 0 15px 0; border-bottom:1px dotted #666666;}
+.content #latestnews div.imgholder{display:block; float:left; width:150px; height:150px; margin:0; padding:4px; border:1px solid #666666;}
+.content #latestnews div.latestnews{display:block; float:right; width:420px; margin:0; padding:0;}
+.content #latestnews p.readmore{display:block; margin-top:10px; text-align:right; font-weight:bold;}
 
 /* Comments */
 
