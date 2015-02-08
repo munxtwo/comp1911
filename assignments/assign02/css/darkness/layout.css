@@ -91,6 +91,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin-bottom:20px; padding-bottom:0px; border-bottom:0px dotted #999999;}
 .container p{padding-left:5px;}
 .content{display:block; width:600px;}
+.corner{background-color: #25173c; padding:10px;}
 
 /* Comments */
 

@@ -90,6 +90,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6{padding-bottom:8px; border-bottom:1px dotted #CCCCCC;}
 .container p{padding-left:5px;}
 .content{display:block; width:600px;}
+.corner{background-color: #666666; padding:10px;}
 
 /* Comments */
 

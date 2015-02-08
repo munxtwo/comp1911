@@ -58,4 +58,8 @@ $(document).ready(function() {
 		}
 	});
 
+	// Corner
+	$('#scheduleTitle').corner();
+	$('#newsTitle').corner("bevel");
+
 });
