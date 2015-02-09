@@ -62,4 +62,11 @@ $(document).ready(function() {
 	$('#scheduleTitle').corner();
 	$('#newsTitle').corner("bevel");
 
+	// Jquery editable
+	$(".editme").editInPlace({
+		callback: function(unused, enteredText) { return enteredText; },
+		// url: './server.php',
+		show_buttons: true
+	});
+
 });
